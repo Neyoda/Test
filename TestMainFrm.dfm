@@ -31,4 +31,12 @@ object Form1: TForm1
       'Memo1')
     TabOrder = 1
   end
+  object CheckBox1: TCheckBox
+    Left = 108
+    Top = 216
+    Width = 97
+    Height = 17
+    Caption = 'CheckBox1'
+    TabOrder = 2
+  end
 end
