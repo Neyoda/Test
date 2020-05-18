@@ -30,6 +30,7 @@ begin
 CheckBox1.Checked := Not CheckBox1.Checked;
 Memo1.Lines.Add(' New text here!!!');
 
+
 end;
 
 end.
