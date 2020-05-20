@@ -28,7 +28,9 @@ object Form1: TForm1
     Width = 185
     Height = 89
     Lines.Strings = (
-      'Memo1')
+      'Line1'
+      'Line2'
+      'Line3')
     TabOrder = 1
   end
   object CheckBox1: TCheckBox
