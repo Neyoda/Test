@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
-    Left = 88
-    Top = 52
+    Left = 200
+    Top = 8
     Width = 105
     Height = 37
     Caption = 'Button1'
@@ -23,8 +23,8 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Memo1: TMemo
-    Left = 44
-    Top = 108
+    Left = 4
+    Top = 8
     Width = 185
     Height = 89
     Lines.Strings = (
@@ -34,8 +34,8 @@ object Form1: TForm1
     TabOrder = 1
   end
   object CheckBox1: TCheckBox
-    Left = 108
-    Top = 216
+    Left = 208
+    Top = 68
     Width = 97
     Height = 17
     Caption = 'CheckBox1'
