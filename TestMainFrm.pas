@@ -34,7 +34,7 @@ CheckBox1.Checked := Not CheckBox1.Checked;
 Memo1.Lines.Add(' New text here!!!');
 
 //‘иг тебе! я первый!
-Memo1.Lines.Add('ку ку');
+Memo1.Lines.Add('разрулено');
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
