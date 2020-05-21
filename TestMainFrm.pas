@@ -14,6 +14,7 @@ type
     Button2: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure CheckBox1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,6 +39,11 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
 Memo1.Lines.Add('Button2');
+end;
+
+procedure TForm1.CheckBox1Click(Sender: TObject);
+begin
+Memo1.Lines.Add('CB OnClick');
 end;
 
 end.
