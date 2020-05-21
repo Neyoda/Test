@@ -11,7 +11,9 @@ type
     Button1: TButton;
     Memo1: TMemo;
     CheckBox1: TCheckBox;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,6 +33,11 @@ CheckBox1.Checked := Not CheckBox1.Checked;
 Memo1.Lines.Add(' New text here!!!');
 
 
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+Memo1.Lines.Add('Button2');
 end;
 
 end.
